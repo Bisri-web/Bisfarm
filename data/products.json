@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Daging Sapi Segar",
+        "description": "Daging sapi premium dari ternak pilihan, tanpa bahan pengawet.",
+        "price": 120000,
+        "image": "https://via.placeholder.com/300x200?text=Daging+Sapi",
+        "category": "daging"
+    },
+    {
+        "id": 2,
+        "name": "Susu Sapi Murni",
+        "description": "Susu sapi segar langsung dari peternakan kami, kaya nutrisi.",
+        "price": 15000,
+        "image": "https://via.placeholder.com/300x200?text=Susu+Sapi",
+        "category": "susu"
+    },
+    {
+        "id": 3,
+        "name": "Daging Kambing",
+        "description": "Daging kambing halal dengan cita rasa autentik, dari ternak sehat.",
+        "price": 150000,
+        "image": "https://via.placeholder.com/300x200?text=Daging+Kambing",
+        "category": "daging"
+    },
+    {
+        "id": 4,
+        "name": "Daging Domba",
+        "description": "Daging domba premium, lembut dan bergizi dari peternakan kami.",
+        "price": 140000,
+        "image": "https://via.placeholder.com/300x200?text=Daging+Domba",
+        "category": "daging"
+    },
+    {
+        "id": 5,
+        "name": "Bulu Domba",
+        "description": "Bulu domba berkualitas tinggi untuk berbagai keperluan kerajinan.",
+        "price": 50000,
+        "image": "https://via.placeholder.com/300x200?text=Wool+Domba",
+        "category": "bulu"
+    },
+    {
+        "id": 6,
+        "name": "Keju dari Susu Sapi",
+        "description": "Keju homemade dari susu sapi kami, alami dan lezat.",
+        "price": 80000,
+        "image": "https://via.placeholder.com/300x200?text=Keju+Sapi",
+        "category": "keju"
+    }
+]

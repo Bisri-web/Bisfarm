@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login - Bisfa Farm</title>
+    <title>Masuk - Bisfa Farm</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
         .login-container {
@@ -50,7 +50,7 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Admin Login</h2>
+        <h2>Masuk Akun</h2>
         <?php
         session_start();
         if (isset($_SESSION['login_error'])) {
@@ -58,11 +58,12 @@
             unset($_SESSION['login_error']);
         }
         ?>
-        <form class="login-form" action="authenticate.php" method="POST">
-            <input type="text" name="username" placeholder="Username" required>
+        <form class="login-form" action="process_login.php" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
             <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Login</button>
+            <button type="submit">Masuk</button>
         </form>
+        <p style="text-align: center; margin-top: 1rem;">Belum punya akun? <a href="register.php">Daftar</a></p>
     </div>
 </body>
 </html>

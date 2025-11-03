@@ -1,28 +1,86 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <!-- Sama seperti index.html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Bisfa Farm</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header>
-        <!-- Navbar sama seperti index.html -->
+        <nav>
+            <div class="logo">
+                <img src="https://via.placeholder.com/100x50?text=Bisfa+Farm" alt="Bisfa Farm">
+            </div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="customer/login.php">Login</a></li>
+                <li><a href="admin/login.php">Admin</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section class="products">
-        <h2>Produk Kami</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="assets/images/sapi.jpg" alt="Daging Sapi">
-                <h3>Daging Sapi Segar</h3>
-                <p>Rp 120.000/kg</p>
-                <button class="btn">Pesan Sekarang</button>
+        <div class="container">
+            <h1>Produk Kami</h1>
+            <p>Kami fokus pada peternakan sapi dan kambing/domba, menyediakan produk berkualitas tinggi yang segar dan sehat.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Daging+Sapi" alt="Daging Sapi">
+                    <h3>Daging Sapi Segar</h3>
+                    <p>Daging sapi premium dari ternak pilihan, tanpa bahan pengawet.</p>
+                    <p class="price">Rp 120.000/kg</p>
+                    <button class="btn add-to-cart" data-id="1" data-name="Daging Sapi Segar" data-price="120000">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Susu+Sapi" alt="Susu Sapi">
+                    <h3>Susu Sapi Murni</h3>
+                    <p>Susu sapi segar langsung dari peternakan kami, kaya nutrisi.</p>
+                    <p class="price">Rp 15.000/liter</p>
+                    <button class="btn add-to-cart" data-id="2" data-name="Susu Sapi Murni" data-price="15000">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Daging+Kambing" alt="Daging Kambing">
+                    <h3>Daging Kambing</h3>
+                    <p>Daging kambing halal dengan cita rasa autentik, dari ternak sehat.</p>
+                    <p class="price">Rp 150.000/kg</p>
+                    <button class="btn add-to-cart" data-id="3" data-name="Daging Kambing" data-price="150000">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Daging+Domba" alt="Daging Domba">
+                    <h3>Daging Domba</h3>
+                    <p>Daging domba premium, lembut dan bergizi dari peternakan kami.</p>
+                    <p class="price">Rp 140.000/kg</p>
+                    <button class="btn add-to-cart" data-id="4" data-name="Daging Domba" data-price="140000">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Wool+Domba" alt="Wool Domba">
+                    <h3>Bulu Domba</h3>
+                    <p>Bulu domba berkualitas tinggi untuk berbagai keperluan kerajinan.</p>
+                    <p class="price">Rp 50.000/kg</p>
+                    <button class="btn add-to-cart" data-id="5" data-name="Bulu Domba" data-price="50000">Tambah ke Keranjang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Keju+Sapi" alt="Keju Sapi">
+                    <h3>Keju dari Susu Sapi</h3>
+                    <p>Keju homemade dari susu sapi kami, alami dan lezat.</p>
+                    <p class="price">Rp 80.000/kg</p>
+                    <button class="btn add-to-cart" data-id="6" data-name="Keju dari Susu Sapi" data-price="80000">Tambah ke Keranjang</button>
+                </div>
             </div>
-            <!-- Tambahkan produk lain -->
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <!-- Sama seperti index.html -->
+        <p>&copy; 2024 Bisfa Farm. All Rights Reserved.</p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
